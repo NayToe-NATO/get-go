@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_rent"
+        android:enabled="true"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_group23"
+        android:title="@string/rent_a_car"/>
+    <item
+        android:id="@+id/menu_book"
+        android:enabled="true"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_outline_assignment_turned_in_24"
+        android:title="@string/booking"/>
+    <item
+        android:id="@+id/menu_friend"
+        android:enabled="true"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_outline_card_giftcard_24"
+        android:title="@string/refer_a_friend"/>
+    <item
+        android:id="@+id/menu_account"
+        android:enabled="true"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="@string/account"/>
+</menu>
